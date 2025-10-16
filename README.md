@@ -21,7 +21,7 @@ docker build -t custom-nginx-webserver:1.0 .
 
 Use the following command to start a container from the built image.
 
-  * The `-d` flag runs the container in **detached mode** (in the background).
+  * The `-d` flag runs the container in **detached mode**.
   * The **`-p 8888:80`** flag maps the host machine's port **8888** to the container's internal NGINX port **80**.
   * The container can then be accessed by visiting `http://localhost:8888` in a web browser.
 
