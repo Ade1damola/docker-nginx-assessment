@@ -16,7 +16,6 @@ Use the following command to build the Docker image. The `.` indicates that the 
 docker build -t custom-nginx-webserver:1.0 .
 ```
 
------
 
 #### 2\. Run the Docker Container
 
